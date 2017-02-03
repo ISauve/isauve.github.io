@@ -271,15 +271,17 @@ body {
 
 /******************* Footer *********************/
 .footer {
-  height: 130px;
+  height: 100px;
   width: 100%;
   position: absolute;
   background-color: dimgrey;
-  -webkit-box-shadow: inset 0px -1px 22px 5px rgba(0,0,0,0.3);
-  -moz-box-shadow: inset 0px -1px 22px 5px rgba(0,0,0,0.3);
-  box-shadow: inset 0px -1px 22px 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0px -1px 22px 5px rgba(0,0,0,0.4);
+  -moz-box-shadow: inset 0px -1px 22px 5px rgba(0,0,0,0.4);
+  box-shadow: inset 0px -1px 22px 5px rgba(0,0,0,0.4);
 
   p {
+    text-align: center;
+    font-style: italic;
     font-size: 1.2em;
     padding-left: 10px;
   }
