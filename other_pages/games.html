@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+    TODO: add a new game? (blokus, space invaders, tetris)
+    TODO: link to "old games"?
+    TODO: add a "twist" to snake - have random obstacles be generated
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Isabelle Sauv&eacute;</title>
+    <link rel="stylesheet" type="text/css" href="games.css">
+    <script type="text/javascript" src="../jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="games.js"></script>
+</head>
+<body>
+    <p class="title"> Here are a few games I wrote for fun. Enjoy! </p>
+
+    <div class="play PP" onclick="showPP()"> Ping Pong </div>
+    <canvas class="ping_pong PPcanvas" width="400" height="300"></canvas>
+    <p class="ping_pong PPrules">
+        Use your mouse to control the left paddle and get the ball past the computer. First to 3 wins!
+    </p>
+    <form class="ping_pong PPlevels" action="">
+        <input type="radio" name="level" value="1" checked="checked"> Level 1 <br>
+        <input type="radio" name="level" value="2"> Level 2<br>
+        <input type="radio" name="level" value="3"> Level 3
+    </form>
+
+    <div class="play SK" onclick="showSnake()"> Snake </div>
+    <p class="snake SKrules"> Play with A/W/D/S </p>
+    <p class="snake SKscore"> Score: 0<br> High Score: 0</p>
+    <canvas class="snake SKcanvas" height="250" width = "500"></canvas>
+
+</body>
+</html>

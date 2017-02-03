@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
+$background: url(../images/background.jpeg);
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  margin:0;
+  overflow-x: hidden;
+  background: $background;
+  background-size: 100% auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// the positioning for text and images are done dynamically, don't edit them here
+
+#text {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 40%;
+}
+
+#images {
+  position: absolute;
+  left: 45%;
+  top: 20px;
+  right: 20px;
+}
+
+#before, #after, #left, #right, #app {
+  position: absolute;
+}
+
+#before {
+  width: 300px;   // height: 168px
+}
+
+#after {
+  width: 300px;
+  top: 190px;
+}
+
+#right {
+  width: 50px;
+  left: 320px;
+  top: 10px;
+}
+
+#left {
+  width: 50px;
+  left: 320px;
+  top: 300px;
+}
+
+#app {
+  height: 230px;    // middle: 115px
+  left: 320px;
+  top: 63px;    // middle needs to be (168 + 20/2) = 178px down
+}

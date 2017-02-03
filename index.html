@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Isabelle Sauv&eacute; </title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+</head>
+<body id="main-content">
+    <!-- Backgrounds -->
+    <div class="title_page_bk"></div>
+    <div class="background first_bk"></div>
+    <div class="background second_bk"></div>
+
+    <div class="title_page">
+        Isabelle Sauv&eacute;
+        <p> Something cool here </p>
+    </div>
+
+    <!-- Intro -->
+    <div class="floater first_page">
+        <table class="center">
+            <tr>
+                <td class="adjust w450">
+                    <span style="font-weight: normal"> Hi there! I'm Isabelle. </span>
+                    <br> I'm a second-year software engineering student at the University of Waterloo.
+                </td>
+                <td class="hide"></td>
+            </tr>
+            <tr>
+                <td class="hide"></td>
+                <td class="adjust w450">
+                    I'm passionate about software development, and am always looking for
+                    exciting learning opportunities.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="link" href="Isabelle_Sauve_Resume.pdf" target="_blank"> Looking for my resume? </a>
+                </td>
+                <td class="hide"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Contact me -->
+    <div class="btwn_floater first_btwn">
+        <div class="contact_title"> Contact me </div>
+        <div>
+            <a href="mailto:isabelle.m.sauve@gmail.com"><img class="contact_content" src="images/Email.png"></a>
+            <a href="http://ca.linkedin.com/in/isauve" target="_blank"><img class="contact_content" src="images/linked-in.png"></a>
+        </div>
+        <div class="contact_underline"></div>
+    </div>
+
+    <!-- Education and experience -->
+    <div class="floater second_page">
+        <div class="wrap">
+            <img src="images/UWaterloo.png" class="loo">
+            <p class="ed">
+                <span style="font-weight: bold">Software Engineering</span>
+                <br>Business Option
+            </p>
+            <table class="container" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td colspan="4"> <span style="font-size: 35px;"> Experience </span> </td>
+                </tr>
+                <tr>
+                    <td>
+                       <a href="#NatalNet" data-toggle="modal">
+                           <img src="images/NatalNet.jpg" class="experience">
+                       </a>
+                    </td>
+                    <td>
+                        <a href="#NutriFence" data-toggle="modal">
+                            <img src="images/NutriFence.png" class="experience">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#Waterloo" data-toggle="modal">
+                            <img src="images/Waterloo.jpg" class="experience">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#GSD" data-toggle="modal">
+                            <img src="images/GSD.jpg" class="experience">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- for a smaller screen -->
+        <div class="wrapSmall">
+            <table class="container" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td colspan="4"> <span style="font-size: 35px;"> Experience </span> </td>
+                </tr>
+                <tr>
+                    <td height="190px">
+                        <a href="#NatalNet" data-toggle="modal">
+                            <img src="images/NatalNet.jpg" class="experience">
+                        </a>
+                    </td>
+                    <td height="190px">
+                        <a href="#NutriFence" data-toggle="modal">
+                            <img src="images/NutriFence.png" class="experience">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="190px">
+                        <a href="#Waterloo" data-toggle="modal">
+                            <img src="images/Waterloo.jpg" class="experience">
+                        </a>
+                    </td>
+                    <td height="190px">
+                        <a href="#GSD" data-toggle="modal">
+                            <img src="images/GSD.jpg" class="experience">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="NatalNet" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        Full Stack Developer, NatalNet
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        NatalNet is an SMS- and web-based application that facilitates a connection between new
+                        or expecting mothers and experienced community healthcare workers in rural Bangladesh.
+                        <br><br>
+                        <span style="font-weight: 300"> Break Inequality Hackathon Grand Prize Winner </span>
+                        and  <span style="font-weight: 300">Google Technology Competition Winner. </span>
+                        <br><br>
+                        Featured on <a href="http://www.cbc.ca/beta/news/canada/kitchener-waterloo/natal-net-wins-women-s-hackathon-at-google-hq-1.3870573"
+                        target="_blank"> CBC</a>, the <a href="http://www.570news.com/2016/11/29/tuesday-november-29th-2016-2/" target="_blank">
+                        570 News Tech Spotlight</a> and <a href="http://www.cbc.ca/listen/shows/the-morning-edition-k-w/segment/10960162" target="_blank">
+                        The Morning Edition</a>
+                        <p class="align_left">
+                             In my role as full stack developer, my tasks included:
+                        </p>
+                        <ul class="align_left">
+                            <li>Configuring the Bootstrap front end to correctly pull and display information from our database </li>
+                            <li>Setting up our Node.js server, as well as the Express.js framework </li>
+                            <li>Configuring the server to communicate properly with the Twilio API </li>
+                            <li>Configuring the server to 'listen' to & update our database (using Firebase, a realtime No-SQL database)  </li>
+                            <li>Developing the back end algorithm for receiving and sending texts (through Twilio) </li>
+                            <li>Pitching the app to a live audience, including a real-time live demo of the functionality </li>
+                        </ul>
+                        <a href="http://natalnet.ca/">NatalNet.ca</a>
+                        <p> Nov 2016 </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="Waterloo" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                       Undergraduate Research Assistant, <br> University of Waterloo
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Autonomous vehicles research
+                        <br><br>
+                        Details TBA
+                        <br><br>
+                        Jan-April 2017
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="NutriFence" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                       Back End Developer, NutriFence
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        NutriFence is an iOS application which simplifies the process of examining an ingredients
+                        list for people with dietary restrictions. Users simply photograph the food item of concern,
+                        and NutriFence is able to quickly and effectively determine if the item is safe for them to eat.
+                        <br><br>
+                        <span style="font-weight: 300"> ArchHacks Hackathon Winner of Best Nutritional Hack </span>
+
+                        <p>Coming Soon: Available on the App Store</p>
+
+                        <a href="https://nutrifence.com/" target="_blank">Nutrifence.com</a>
+                        <br><br>
+                        Nov 2016
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="GSD" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        Full Stack App Developer, <br>Waterloo Autonomous Car Project
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        On my coop term in the summer of 2016, I developed a web app that students and staff at
+                        the University of Waterloo can use to order a ride from the autonomous shuttle driving
+                        around campus.
+                    </p>
+                    <p class="align_left">
+                        Features:
+                    </p>
+                    <ul class="align_left">
+                        <li>SimpleSAML authentication allowing only UWaterloo students/staff to access the service </li>
+                        <li>Mobile- and desktop- compatible front end (built with Bootstrap) </li>
+                        <li>Real-time display of the car location (animated with HTML Canvas) </li>
+                        <li>Real-time display of approximate wait time to be picked up </li>
+                        <li>Redis database storing user info such as number of rides taken, number of strikes, etc. </li>
+                        <li>PHP back end which accepts ride requests; checks the user doesn't have too many strikes;
+                            adds requests to a real-time queue; and calculates ride information such as pickup time and
+                            position in queue </li>
+                    </ul>
+                    <p>
+                        Coop rating for the term: Outstanding
+                        <br><br>
+                        May-Aug 2016
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- View my work -->
+    <div class="btwn_floater second_btwn">
+        <div class="work_title"> View my work </div>
+        <div class="work_content">
+            <a href="https://github.com/ISauve" target="_blank">Github Profile</a>
+            <br>
+            <a href="http://t3-necsis.cs.uwaterloo.ca/~isauve/" target="_blank"
+                data-toggle="popover"  data-trigger="hover"
+                data-content="A web app that students and staff at the University of Waterloo can use to
+                              order a ride from the autonomous shuttle driving around Ring Road.">
+                Professional: Shuttle App
+            </a>
+            <br>
+            <a href="https://devpost.com/software/nutrifence" target="_blank"
+               data-toggle="popover"  data-trigger="hover"
+               data-content="An iOS app which allows people with dietary restrictions to photograph an ingredients
+                             list and easily be told if that food is safe for them to eat.">
+                NutriFence
+            </a>
+            <br>
+            <a href="https://devpost.com/software/nutrifence" target="_blank"
+               data-toggle="popover"  data-trigger="hover"
+               data-content="An SMS- and web-based application that facilitates a connection between new or expecting
+                mothers and experienced community healthcare workers in rural Bangladesh.">
+                NatalNet
+            </a>
+            <br>
+            <a href="other_pages/extension.html" target="_blank">Independent: Chrome Extension</a>
+            <br>
+            <a href="other_pages/games.html" target="_blank">Independent: Games</a>
+            <br>
+            <a href="http://isabellesauve.altervista.com" target="_blank">
+                Previous version of this site
+                <!-- Note: v1 was Dec 15, v2 was Mar 16 -->
+            </a>
+        </div>
+        <div class="work_underline"></div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="floater third_page">
+        <table class="horizontal switch_2" cellspacing="30">
+           <!-- This content gets added dynamically -->
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p> Last updated: Nov 2016 </p>
+        <p> Built from scratch by Isabelle Sauv&eacute; </p>
+        <p>  Links maybe?? back up? </p>
+    </div>
+</body>
+</html>
