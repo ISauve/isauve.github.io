@@ -246,10 +246,10 @@ function mouseOverSkills() {
 
     $languages.mouseenter(function() {
         $languages.html(
-            'HTML5 and CSS3 ' +
+            'C++' +
+            '<br>HTML5 and CSS3 ' +
             '<br>JavaScript' +
             '<br>PHP' +
-            '<br>C++' +
             '<br>Java' +
             '<br>Python3' +
             '<br>MATLAB'
@@ -260,14 +260,15 @@ function mouseOverSkills() {
 
     $frameworks.mouseenter(function() {
         $frameworks.html(
-            'jQuery ' +         // library
-            '<br>Bootstrap' +   // framework
-            '<br>AJAX' +        // technique
-            '<br>SASS' +        // extension
-            '<br>Node.js and Express.js' +     // environment
+            'Node.js and Express.js' +     // environment
             '<br>Twilio' +      // API
             '<br>Firebase' +    // database
-            '<br>Redis'      // data structure store
+            '<br>Redis' +     // data structure store
+            '<br>jQuery ' +         // library
+            '<br>Bootstrap' +   // framework
+            '<br>AJAX' +        // technique
+            '<br>SASS'        // extension
+
         )
     }).mouseleave(function() {
         $frameworks.html('Tools');
