@@ -50,7 +50,6 @@ function snake() {
     // initialize the canvas and prepare our page to listen for keyboard
     var canvas = document.getElementsByClassName('SKcanvas')[0];
     var canvasCtxt = canvas.getContext('2d');
-    document.addEventListener("keydown", changeDirection, false);
 
     var score = 0;
     var highScore = 0;
@@ -82,6 +81,15 @@ function snake() {
         else if (e.keyCode === 83 && direction !== 'U') direction = 'D';
         else if (e.keyCode === 68 && direction !== 'L') direction = 'R';
         else if (e.keyCode === 65 && direction !== 'R') direction = 'L';
+
+        // 38 is up arrow, 40 is down arrow, 39 is right arrow, 37 is left arrow
+        if (e.keyCode === 38 && direction !== 'D') direction = 'U';
+        else if (e.keyCode === 40 && direction !== 'U') direction = 'D';
+        else if (e.keyCode === 39 && direction !== 'L') direction = 'R';
+        else if (e.keyCode === 37 && direction !== 'R') direction = 'L';
+
+        // if you turn, don't register another keyboard click until the next block has been drawn
+        document.removeEventListener("keydown", changeDirection, false);
     }
 
     // prepare the food
@@ -108,6 +116,7 @@ function snake() {
             canvasCtxt.font = "15px Arial";
             canvasCtxt.textAlign="center";
             canvasCtxt.fillText("Click to begin", canvas.width/2, canvas.height/2);
+            direction = 'R';
             return;
         }
 
@@ -116,8 +125,13 @@ function snake() {
             canvasCtxt.font = "15px Arial";
             canvasCtxt.textAlign="center";
             canvasCtxt.fillText("Click to play again", canvas.width/2, canvas.height/2);
+            direction = 'R';
             return;
         }
+
+        // register a keydown event (unbinds once it gets used)
+        document.removeEventListener("keydown", changeDirection, false);    // so we don't add duplicates
+        document.addEventListener("keydown", changeDirection, false);
 
         // draw the square
         canvasCtxt.fillStyle = snakeColor;
