@@ -89,6 +89,33 @@ body {
   background-color: transparent;
   font-size: 1.5em;
 
+  .nav_down {
+    position: absolute;
+    top: -45px;
+    height: 30px;
+    width: 100%;
+
+    #arrow {
+      position: absolute;
+      left: 50%;
+      margin-left: -16px;
+      width: 32px;
+      opacity: 0.4;
+      transition: opacity 0.5s;
+    }
+
+    #arrow:hover {
+      opacity: 1;
+    }
+  }
+
+  #anchor_top {
+    position: absolute;
+    top: 0;
+    height: 1px;
+    width: 100%;
+  }
+
   a {
     text-decoration: none;
     color: black;

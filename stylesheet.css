@@ -73,6 +73,25 @@ body {
 .first_page {
   background-color: transparent;
   font-size: 1.5em; }
+  .first_page .nav_down {
+    position: absolute;
+    top: -45px;
+    height: 30px;
+    width: 100%; }
+    .first_page .nav_down #arrow {
+      position: absolute;
+      left: 50%;
+      margin-left: -1px;
+      width: 32px;
+      opacity: 0.4;
+      transition: opacity 0.5s; }
+    .first_page .nav_down #arrow:hover {
+      opacity: 1; }
+  .first_page #anchor_top {
+    position: absolute;
+    top: 0;
+    height: 1px;
+    width: 100%; }
   .first_page a {
     text-decoration: none;
     color: black; }

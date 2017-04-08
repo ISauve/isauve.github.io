@@ -29,6 +29,12 @@ $(document).ready(function(){
     $('#main-content').fadeIn('slow');
 });
 
+function navigate() {
+    $('html, body').animate({
+        scrollTop: $("#anchor_top").offset().top
+    }, 1500);
+}
+
 function adjustPageHeights() {
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
