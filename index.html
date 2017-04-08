@@ -1,8 +1,6 @@
 <!--
 TODO
     - fix 1st page (add pic, make nicer)
-    - bring back nav bar
-    - add little arrow (https://github.com/RyanFitzgerald/devportfolio-template)
     - create mobile version
 -->
 
@@ -19,6 +17,7 @@ TODO
     <script type="text/javascript" src="bootstrap.js"></script>
 </head>
 <body id="main-content">
+
     <!-- Backgrounds -->
     <div class="title_page_bk"></div>
     <div class="background first_bk"></div>
@@ -26,17 +25,23 @@ TODO
 
     <div class="title_page">
         Isabelle Sauv&eacute;
+        <br> <span id="subtitle">software developer</span>
     </div>
 
     <!-- Intro -->
     <div class="floater first_page">
 
-        <!-- Arrow -->
-        <div class="nav_down">
-            <a href="javascript:navigate()"><img id="arrow" src="images/down.png"></a>
+        <!-- arrow above page -->
+        <div class="nav_down top">
+            <a href="javascript:navigate($('#anchor_one'))"><img class="arrow" src="images/down.png"></a>
         </div>
+        <div id="anchor_one"></div>
 
-        <div id="anchor_top"></div>
+        <!-- arrow at bottom -->
+        <div class="nav_down bottom">
+            <a href="javascript:navigate($('#anchor_two'))"><img class="arrow" src="images/down.png"></a>
+        </div>
+        <div id="anchor_two"></div>
 
         <table class="center">
             <tr>
@@ -64,6 +69,7 @@ TODO
 
     <!-- Contact me -->
     <div class="btwn_floater first_btwn">
+
         <div class="contact_title"> Contact me </div>
         <div>
             <a href="mailto:isabelle.m.sauve@gmail.com"><img class="contact_content" src="images/Email.png"></a>
@@ -74,6 +80,19 @@ TODO
 
     <!-- Education and experience -->
     <div class="floater second_page">
+
+        <!-- arrow above page -->
+        <div class="nav_down top">
+            <a href="javascript:navigate($('#anchor_three'))"><img class="arrow white" src="images/down_white.png"></a>
+        </div>
+        <div id="anchor_three"></div>
+
+        <!-- arrow at bottom -->
+        <div class="nav_down bottom">
+            <a href="javascript:navigate($('#anchor_four'))"><img class="arrow" src="images/down.png"></a>
+        </div>
+        <div id="anchor_four"></div>
+
         <div class="wrap">
             <img src="images/UWaterloo.png" class="loo">
             <p class="ed">
@@ -322,6 +341,18 @@ TODO
 
     <!-- Technical Skills -->
     <div class="floater third_page">
+
+        <!-- arrow above page -->
+        <div class="nav_down top">
+            <a href="javascript:navigate($('#anchor_five'))"><img class="arrow white" src="images/down_white.png"></a>
+        </div>
+        <div id="anchor_five"></div>
+
+        <!-- arrow at bottom -->
+        <div class="nav_down bottom">
+            <a href="javascript:navigate($('#anchor_one'))"><img class="arrow" src="images/up.png"></a>
+        </div>
+
         <table class="horizontal switch_2" cellspacing="30">
            <!-- This content gets added dynamically -->
         </table>

@@ -29,9 +29,29 @@ $(document).ready(function(){
     $('#main-content').fadeIn('slow');
 });
 
-function navigate() {
+// handle displaying arrows
+$.fn.scrollEnd = function(callback, timeout) {
+    $(this).scroll(function() {
+        // if user scrolls, hide arrows
+        $(".nav_down").css("opacity", "0");
+
+        var $this = $(this);
+        if ($this.data('scrollTimeout')) {
+            clearTimeout($this.data('scrollTimeout'));
+        }
+        $this.data('scrollTimeout', setTimeout(callback,timeout));
+    });
+};
+
+// if user stops scrolling for a certain time, show arrows
+$(window).scrollEnd(function(){
+    $(".nav_down").css("opacity", "1");
+}, 1000);
+
+
+function navigate(anchor) {
     $('html, body').animate({
-        scrollTop: $("#anchor_top").offset().top
+        scrollTop: anchor.offset().top
     }, 1500);
 }
 

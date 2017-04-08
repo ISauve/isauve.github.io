@@ -17,19 +17,43 @@ body {
   .align_left li {
     padding-bottom: 7px; }
 
-/************* Anchors **************
-#one {
+/************* Anchors **************/
+.nav_down {
+  transition: opacity 0.8s;
   position: absolute;
-  top: -100px; }
+  height: 36px;
+  width: 100%;
+  z-index: 50; }
+  .nav_down .arrow {
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    opacity: 0.6;
+    transition: opacity 0.5s; }
+  .nav_down .white {
+    opacity: 0.7; }
+  .nav_down .arrow:hover {
+    opacity: 1; }
 
-#two, #four {
-  position: absolute;
-  top: -375px; }
+.top {
+  top: -55px; }
 
-#three, #five {
+.bottom {
+  bottom: 20px; }
+
+#anchor_one, #anchor_three, #anchor_five {
   position: absolute;
-  top: -155px; }
-*/
+  top: 0;
+  height: 1px;
+  width: 100%; }
+
+#anchor_two, #anchor_four {
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%; }
+
 /*********** Backgrounds *************/
 .background {
   width: 1920px;
@@ -61,6 +85,10 @@ body {
   left: 50%;
   color: black;
   font-size: 2em; }
+  .title_page #subtitle {
+    font-size: 0.8em;
+    margin-left: 20px;
+    margin-top: -5px; }
 
 .floater {
   height: 545px;
@@ -73,25 +101,6 @@ body {
 .first_page {
   background-color: transparent;
   font-size: 1.5em; }
-  .first_page .nav_down {
-    position: absolute;
-    top: -45px;
-    height: 30px;
-    width: 100%; }
-    .first_page .nav_down #arrow {
-      position: absolute;
-      left: 50%;
-      margin-left: -1px;
-      width: 32px;
-      opacity: 0.4;
-      transition: opacity 0.5s; }
-    .first_page .nav_down #arrow:hover {
-      opacity: 1; }
-  .first_page #anchor_top {
-    position: absolute;
-    top: 0;
-    height: 1px;
-    width: 100%; }
   .first_page a {
     text-decoration: none;
     color: black; }
@@ -222,6 +231,7 @@ body {
   height: 100px;
   width: 100%;
   position: absolute;
+  color: #b9b9b9;
   background-color: dimgrey;
   -webkit-box-shadow: inset 0px -1px 22px 5px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: inset 0px -1px 22px 5px rgba(0, 0, 0, 0.4);
