@@ -108,7 +108,7 @@ function parallaxScroll(){
     $second.css('top', (300-(window_top*0.2)) +'px');
 
     // the writing on the title page (making it 'scroll up' quickly)
-    $('.title_page').css('top', windowHeight/2 - window_top*0.9 + 'px');
+    $('.title, .menu').css('top', windowHeight/2 - window_top*0.9 + 'px');
 
     var first_pg_top = $('.first_page').offset().top;
     var second_pg_top = $('.second_page').offset().top;

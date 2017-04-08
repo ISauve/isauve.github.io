@@ -1,7 +1,5 @@
 <!--
-TODO
-    - fix 1st page (add pic, make nicer)
-    - create mobile version
+TODO: create mobile version
 -->
 
 <!DOCTYPE html>
@@ -23,9 +21,19 @@ TODO
     <div class="background first_bk"></div>
     <div class="background second_bk"></div>
 
+    <div id="anchor_top"></div>
     <div class="title_page">
-        Isabelle Sauv&eacute;
-        <br> <span id="subtitle">software developer</span>
+        <div class="title"> Isabelle Sauv&eacute;
+            <br> <span id="subtitle">software developer</span>
+        </div>
+
+        <div class="menu">
+            <a href="javascript:navigate( $('#anchor_one') )"> About me</a><br>
+            <a href="javascript:navigate( $('#anchor_two') )"> Contact me</a><br>
+            <a href="javascript:navigate( $('#anchor_three') )"> Experience</a><br>
+            <a href="javascript:navigate( $('#anchor_four') )"> View my work</a><br>
+            <a href="javascript:navigate( $('#anchor_five') )"> Skills</a>
+        </div>
     </div>
 
     <!-- Intro -->
@@ -153,7 +161,7 @@ TODO
                     </td>
                     <td height="190px">
                         <a href="#GSD" data-toggle="modal">
-                            <img src="images/GSD.jpg" class="experience">
+                            <img src="images/autonomoose.png" class="experience">
                         </a>
                     </td>
                 </tr>
@@ -243,7 +251,19 @@ TODO
                         <br><br>
                         <span style="font-weight: 300"> ArchHacks Hackathon Winner of Best Nutritional Hack </span>
 
-                        <p>Coming Soon: Available on the App Store</p>
+                        <p class="align_left">
+                            In my role as back end developer, my tasks included:
+                        </p>
+                        <ul class="align_left">
+                            <li>Designing the Classification API which our front end sends requests to and receives conclusions from </li>
+                            <li>Setting up our Node.js server, as well as the Express.js framework </li>
+                            <li>Integrating OCR using the Google Vision Cloud API </li>
+                            <li>Integrating spell check on the OCR results using the Bing Spell Check API </li>
+                            <li>Setting up the Redis database as a data store for storing the categorization of ingredients </li>
+                            <li>Writing the algorithm for cleaning up the raw data received and classifying items based on their ingredients </li>
+                        </ul>
+
+                        <p>Coming soon to the App Store</p>
 
                         <a href="https://nutrifence.com/" target="_blank">Nutrifence.com</a>
                         <br><br>
@@ -350,7 +370,7 @@ TODO
 
         <!-- arrow at bottom -->
         <div class="nav_down bottom">
-            <a href="javascript:navigate($('#anchor_one'))"><img class="arrow" src="images/up.png"></a>
+            <a href="javascript:navigate($('#anchor_top'))"><img class="arrow" src="images/up.png"></a>
         </div>
 
         <table class="horizontal switch_2" cellspacing="30">

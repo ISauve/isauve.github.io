@@ -48,7 +48,7 @@ body {
 .bottom {
   bottom: 20px; }
 
-#anchor_one, #anchor_three, #anchor_five {
+#anchor_top, #anchor_one, #anchor_three, #anchor_five {
   position: absolute;
   top: 0;
   height: 1px;
@@ -85,16 +85,35 @@ body {
   background-size: 100% 100%; }
 
 /*************** Pages **************/
-.title_page {
+.title {
   position: absolute;
   top: 50%;
   left: 50%;
+  margin-top: -38px;
   color: black;
   font-size: 2em; }
-  .title_page #subtitle {
+  .title #subtitle {
     font-size: 0.8em;
     margin-left: 20px;
     margin-top: -5px; }
+
+.menu {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  margin-top: -96px;
+  margin-right: 40px;
+  font-size: 1.6em;
+  line-height: 1.5;
+  text-align: right; }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    opacity: 0.4;
+    transition: opacity 0.3s; }
+  .menu a:hover {
+    opacity: 1; }
 
 .floater {
   height: 545px;
