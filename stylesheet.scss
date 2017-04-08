@@ -27,11 +27,12 @@ body {
 
 /************* Anchors **************/
 .nav_down {
-  transition: opacity 0.8s;
   position: absolute;
   height: 36px;
   width: 100%;
   z-index: 50;
+  opacity: 1;
+  transition: opacity 1s;
 
   .arrow {
     position: absolute;
@@ -49,6 +50,12 @@ body {
   .arrow:hover {
     opacity: 1;
   }
+}
+
+.inactive {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0;
 }
 
 .top {

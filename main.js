@@ -33,7 +33,7 @@ $(document).ready(function(){
 $.fn.scrollEnd = function(callback, timeout) {
     $(this).scroll(function() {
         // if user scrolls, hide arrows
-        $(".nav_down").css("opacity", "0");
+        $(".nav_down").addClass("inactive");
 
         var $this = $(this);
         if ($this.data('scrollTimeout')) {
@@ -45,7 +45,7 @@ $.fn.scrollEnd = function(callback, timeout) {
 
 // if user stops scrolling for a certain time, show arrows
 $(window).scrollEnd(function(){
-    $(".nav_down").css("opacity", "1");
+    $(".nav_down").removeClass("inactive");
 }, 1000);
 
 
