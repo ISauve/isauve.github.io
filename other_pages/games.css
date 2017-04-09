@@ -31,7 +31,10 @@ body {
 .SK {
   top: 120px; }
 
-.ping_pong, .snake {
+.IN {
+  top: 190px; }
+
+.ping_pong, .snake, .invaders {
   display: none; }
 
 .hidden {
@@ -66,7 +69,6 @@ body {
 
 .SKrules {
   position: absolute;
-  text-align: right;
   top: 80px;
   left: 160px;
   font-size: 1.1em; }
@@ -79,5 +81,18 @@ body {
   width: 146px;
   font-size: 1.1em;
   line-height: 2; }
+
+/******** Space Invaders *************/
+.INcanvas {
+  position: absolute;
+  top: 100px;
+  left: 280px;
+  border: 1px solid black; }
+
+.INrules {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-size: 1.1em; }
 
 /*# sourceMappingURL=games.css.map */
