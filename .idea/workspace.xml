@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf955f79-d56f-4168-a4e8-a9ab61285a37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other_pages/invaders/bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other_pages/invaders/down_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other_pages/invaders/ship.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other_pages/invaders/sprite_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other_pages/invaders/sprite_purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other_pages/invaders/up_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other_pages/invaders/up_3.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/other_pages/archhacks.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other_pages/games.css" afterPath="$PROJECT_DIR$/other_pages/games.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other_pages/games.css.map" afterPath="$PROJECT_DIR$/other_pages/games.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other_pages/games.html" afterPath="$PROJECT_DIR$/other_pages/games.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other_pages/games.js" afterPath="$PROJECT_DIR$/other_pages/games.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other_pages/games.scss" afterPath="$PROJECT_DIR$/other_pages/games.scss" />
     </list>
     <ignored path="isauve.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,41 +23,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="games.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/other_pages/games.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="40">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="games.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other_pages/games.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="118" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="games.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other_pages/games.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="453" column="0" selection-start-line="453" selection-start-column="0" selection-end-line="867" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!block;n#keydown#0;n#!!block;n#spaceInvaders#0" expanded="false" />
-                <element signature="e#19245#19304#0" expanded="false" />
-                <element signature="n#!!block;n#keyup#0;n#!!block;n#spaceInvaders#0" expanded="false" />
-                <element signature="n#!!block;n#shoot#0;n#!!block;n#spaceInvaders#0" expanded="false" />
-                <element signature="n#!!block;n#moveSprites#0;n#!!block;n#spaceInvaders#0" expanded="false" />
-                <element signature="n#!!block;n#checkForHits#0;n#!!block;n#spaceInvaders#0" expanded="false" />
-                <element signature="n#!!block;n#checkInvaderShots#0;n#!!block;n#spaceInvaders#0" expanded="false" />
-                <element signature="n#!!block;n#generateInvaderShots#0;n#!!block;n#spaceInvaders#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,9 +47,9 @@
         <option value="$PROJECT_DIR$/stylesheet.scss" />
         <option value="$PROJECT_DIR$/other_pages/pokerGame.js" />
         <option value="$PROJECT_DIR$/other_pages/games.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/other_pages/games.js" />
         <option value="$PROJECT_DIR$/other_pages/games.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -148,52 +105,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="isauve.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isauve.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isauve.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheet.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isauve.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isauve.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other_pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isauve.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isauve.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other_pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invaders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,12 +202,12 @@
       <workItem from="1491606138843" duration="7749000" />
       <workItem from="1491637369789" duration="660000" />
       <workItem from="1491673352963" duration="2501000" />
-      <workItem from="1491678661832" duration="21904000" />
+      <workItem from="1491678661832" duration="22175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39302000" />
+    <option name="totallyTimeSpent" value="39573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
@@ -528,14 +439,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="337" column="30" selection-start-line="337" selection-start-column="30" selection-end-line="337" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other_pages/invaders/block.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -614,6 +517,22 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/other_pages/games.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other_pages/games.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="118" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/other_pages/games.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -631,18 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other_pages/games.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="118" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_pages/games.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="40">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
