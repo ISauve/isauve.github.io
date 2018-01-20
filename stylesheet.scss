@@ -200,17 +200,17 @@ body {
   .wrap {
     position: absolute;
     height: 385px;
-    width: 760px;
+    width: 950px;
     left: 50%;
     top: 50%;
-    margin-left: -380px;
+    margin-left: -475px;
     margin-top: -200px;
   }
 
   .wrapSmall {
     display: none;
     position: absolute;
-    width: 380px;
+    width: 570px;
     height: 474px;
     left: 50%;
     top: 50%;
@@ -235,7 +235,7 @@ body {
     position: absolute;
     top: 100px;
     left: 50%;
-    margin-left: -380px;    // total W = 760
+    margin-left: -475px;    // total W = 950
   }
 
   a {

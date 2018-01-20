@@ -48,7 +48,6 @@ $(window).scrollEnd(function(){
     $(".nav_down").removeClass("inactive");
 }, 1000);
 
-
 function navigate(anchor) {
     $('html, body').animate({
         scrollTop: anchor.offset().top
@@ -149,7 +148,7 @@ function adjustPageWidths() {
     $switch.css("margin-top", -height/2 + 'px');
 
     // Second page:
-    if (windowWidth < 780) {
+    if (windowWidth < 950) {
         $('.wrap').css("display", "none");
         $('.wrapSmall').css("display", "block");
     } else {
@@ -198,8 +197,8 @@ function adjustPageWidths() {
         $switch2.html(
             '<tr>' +
             '<td class="skill lang"> Languages </td> ' +
-            '<td class="skill fw"> Tools </td> ' +
-            '<td class="skill tools"> Software </td> ' +
+            '<td class="skill fw"> Libraries </td> ' +
+            '<td class="skill tools"> Tools </td> ' +
             '</tr>'
         )
     }
@@ -273,12 +272,12 @@ function mouseOverSkills() {
     $languages.mouseenter(function() {
         $languages.html(
             'C++' +
+            '<br>GoLang' +
             '<br>HTML5 and CSS3 ' +
             '<br>JavaScript' +
-            '<br>PHP' +
-            '<br>Java' +
-            '<br>Python3' +
-            '<br>MATLAB'
+            '<br>Python' +
+            '<br>MATLAB' +
+            '<br>ARM & MIPS'
         )
     }).mouseleave(function() {
         $languages.html('Languages');
@@ -297,20 +296,19 @@ function mouseOverSkills() {
 
         )
     }).mouseleave(function() {
-        $frameworks.html('Tools');
+        $frameworks.html('Libraries');
     });
 
     $tools.mouseenter(function() {
         $tools.html(
-            'GitHub' +
-            '<br>JetBrains IDEs' +
-            '<br>Final Cut Pro' +
-            '<br>Microsoft Office Suite' +
-            '<br>AutoCAD' +
-            '<br>Photoshop'
+            'Git' +
+            '<br>Docker' +
+            '<br>CircleCI, Appveyor, Travis' +
+            '<br>Unix/Linux' +
+            '<br>Jetbrains IDEs'
         )
     }).mouseleave(function() {
-        $tools.html('Software');
+        $tools.html('Tools');
     });
 
     $('.lang, .fw, .tools').mouseenter(function() {
