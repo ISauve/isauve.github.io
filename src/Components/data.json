@@ -1,0 +1,235 @@
+{
+    "description": "I'm a Waterloo based Software Engineering Student. I have just completed the 3rd year of my Bachelors in Software Engineering at the University of Waterloo, and am currently on co-op in Cupertino, CA.",
+
+    "education": [
+        {
+            "school": "University of Waterloo",
+            "degree": "Bachelors of Software Engineering",
+            "date": "Expected April 2020",
+            "major":"Honours Software Engineering, Co-operative Program, Business Option",
+            "description": "Studied Nanotechnology Engineering from 2014-2016 prior to transferring to Software Engineering in the fall of 2016.",
+            "classes": [
+                {
+                    "code": "CS 343",
+                    "title": "Concurrent & Parallel Programming"
+                },
+                {
+                    "code": "SE 350",
+                    "title": "Operating Systems"
+                },
+                {
+                    "code": "CS 341",
+                    "title": "Algorithms"
+                },
+                {
+                    "code": "CS 240",
+                    "title": "Data Structures & Data Management"
+                }
+            ]
+        }
+    ],
+
+    "work": [
+        {
+            "company":"Apple Inc.",
+            "image":"apple.png",
+            "title":"Software Engineering Intern, FaceTime Engineering Team",
+            "years":"Jan - April 2019",
+            "description":""
+        },
+        {
+            "company":"Ubisoft",
+            "image":"ubisoft.jpg",
+            "title":"Game Programmer Intern, Game Engine Team",
+            "years":"May - Aug 2018",
+            "description":"Implemented low-level performance optimizations in a large C++ game engine for a AAA game."
+        },
+        {
+            "company":"DataDog",
+            "image":"datadog.png",
+            "title":"Software Engineering Intern, Agent & Integrations Team",
+            "years":"Sept - Dec 2017",
+            "description":"Worked on the DataDog Agent 6, implementing new features as well as improving the performance of existing components."
+        },
+        {
+            "company":"University of Waterloo Faculty of Engineering",
+            "image":"waterloo.jpg",
+            "title":"Undergraduate Research Assistant",
+            "years":"Jan - April 2017",
+            "description":"Optimized the security, performance, and reliability of a web system in order to effectively increase web app scalability."
+        },
+        {
+            "company":"University of Waterloo ‘Autonomoose’",
+            "image":"autonomoose.png",
+            "title":"App Developer",
+            "years":"May - Aug 2016",
+            "description":"Designed & built a cross-platform web app that students and staff at the University of Waterloo can use to interface with the autonomous shuttle being developed by the Autonomoose team."
+        }
+    ],
+
+    "projects": [
+        {
+            "title": "3D Rendering Engine",
+            "image": "3dengine.jpg",
+            "hasDemoImg": true,
+            "demo_image": "3dengine.gif",
+            "urls": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/ISauve/3D-Rendering-Engine"
+                }
+            ],
+            "category": "Personal Project",
+            "date":"2018",
+            "description": "Dynamic 3D scene navigable as a 1st-person character, rendered in C++ via direct interfacing with the OpenGL API. Features include custom GLSL shaders implementing Phong model, 3D model loading & terrain generation via heightmaps.",
+            "awards": []
+        },
+        {
+            "title": "Mini RPG",
+            "image": "mini_rpg.jpg",
+            "hasDemoImg": true,
+            "demo_image": "mini_rpg.gif",
+            "urls": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/ISauve/Mini_RPG"
+                }
+            ],
+            "category": "Personal Project",
+            "date":"2017",
+            "description": "2D adventure game written from scratch complete with combat & asset acquisition mechanics. Built in multithreaded C++ using SFML as an environment for OpenGL. ",
+            "awards": []
+        },
+        {
+            "title": "Retro Games",
+            "image": "retro_games.jpg",
+            "urls": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/ISauve/Games"
+                }
+            ],
+            "category": "Personal Project",
+            "date":"2016",
+            "description": "A small collection of retro arcade games created with HTML5 Canvas & JavaScript.",
+            "awards": []
+        },
+        {
+            "title": "Transcript Visualizer",
+            "image": "transcript_visualizer.jpg",
+            "hasDemoImg": false,
+            "urls": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/ISauve/Transcript-Visualizer"
+                }
+            ],
+            "category": "Personal Project",
+            "date":"2018",
+            "description": "Node.js app that uses D3 to display a UW transcript as a dendogram.",
+            "awards": []
+        },
+        {
+            "title": "NatalNet",
+            "image": "natalnet.jpg",
+            "hasDemoImg": false,
+            "urls": [
+                {
+                    "name": "Devpost",
+                    "link": "https://devpost.com/software/natalnet"
+                },
+                {
+                    "name": "Github",
+                    "link": "https://github.com/ISauve/NatalNet"
+                }
+            ],
+            "category": "Team of 5",
+            "date":"2016-2017",
+            "description": "SMS and web app that increases the accessibility of pre- and post-natal care for women in rural communities of Bangladesh. ",
+            "awards": [
+                "Break Inequality Hackathon Grand Prize Winner",
+                "Google Technology Competition Winner",
+                "Featured on Google Students Blog"
+            ]
+        },
+        {
+            "title": "NutriFence",
+            "image": "nutrifence.jpg",
+            "hasDemoImg": false,
+            "urls": [
+                {
+                    "name": "Devpost",
+                    "link": "https://devpost.com/software/nutrifence"
+                },
+                {
+                    "name": "Github",
+                    "link": "https://github.com/TanayParikh/NutriFence"
+                }
+            ],
+            "category": "Team of 4",
+            "date":"2016",
+            "description": "IPhone app for people with dietary restrictions which uses OCR to scan food labels and determine if an item is suitable for their diet.",
+            "awards": [
+                "ArchHacks Best Nutritional Hack Winner"
+            ]
+        },
+        {
+            "title": "Word Switcher",
+            "image": "word_switcher.jpg",
+            "hasDemoImg": false,
+            "urls": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/ISauve/Word-Switcher-Chrome-Extension"
+                }
+            ],
+            "category": "Personal Project",
+            "date":"2016",
+            "description": "Small Chrome extension for replacing a choice word in your browser.",
+            "awards": []
+        },
+        {
+            "title": "Personal Websites",
+            "image": "old_website.jpg",
+            "hasDemoImg": true,
+            "urls": [
+              {
+                  "name": "Github",
+                  "link": "https://github.com/ISauve/Personal-Website"
+              }
+            ],
+            "demo_image": "old_website.gif",
+            "category": "Personal Project",
+            "date":"2016-2018",
+            "description": "Over the years, I used the creation of an online personal portfolio as a means to learn web development. I started with only the bare minimum tools to ensure I fully understood the fundamentals of web technology, & then slowly incorporated more complex tools over time.",
+            "awards": [],
+            "versions": [
+              {
+                "description": "A single page React.js site based off of https://github.com/tbakerx/react-resume-template.",
+                "number": "4"
+              },
+              {
+                "description": "A single page portfolio built from scratch with Bootstrap, jQuery and SASS; featured custom animations & a custom parallax scrolling background.",
+                "number": "3"
+              },
+              {
+                "description": "A single page portfolio built from scratch with HTML5, CSS3 and jQuery.",
+                "number": "2"
+              },
+              {
+                "description": "A multi-page portfolio built from scratch with only HTML5, CSS3 and JavaScript.",
+                "number": "1"
+              }
+            ]
+        }
+    ],
+    "interests": [
+      "Computer Graphics",
+      "Computer Vision",
+      "Backend Web Development",
+      "Operating Systems",
+      "Software Optimization",
+      "Autonomous Vehicles"
+    ],
+    "lastUpdated": "February 2019"
+}

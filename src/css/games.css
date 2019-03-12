@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
+
+/******** Snake *************/
+
+.SKrules {
+    padding-top: 5px;
+    padding-left:20px;
+    margin: 0px;
+    font-size: 1.1em;
+}
+
+.SKscore {
+    padding-top: 5px;
+    padding-left:20px;
+    padding-bottom:20px;
+    font-size: 1.1em;
+    line-height: 2;
+    margin: 0px;
+}
+
+.SKcanvas {
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+/******** Space Invaders *************/
+
+.SIrules {
+    padding-top: 5px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-size: 1.1em;
+}
+
+.SIcanvas {
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+/******** Ping Pong **********/
+.PPcanvas {
+  position: absolute;
+  border: 1px solid black;
+  top: 100px;
+  left: 450px;
+}
+
+.PPrules {
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  width: 250px;
+  text-align: right;
+  font-size: 1.1em;
+  line-height: 1.35;
+}
+
+.PPlevels {
+  position: absolute;
+  top: 200px;
+  left: 340px;
+}
