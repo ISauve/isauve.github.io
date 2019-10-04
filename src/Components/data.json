@@ -1,5 +1,5 @@
 {
-    "description": "I'm a Waterloo based Software Engineering Student. I have just completed the 3rd year of my Bachelors in Software Engineering at the University of Waterloo, and am currently on co-op in Cupertino, CA.",
+    "description": "I'm a Waterloo based Software Engineering Student. I'm halfway through the 4th year of my Bachelors in Software Engineering at the University of Waterloo, and am currently on co-op at Shopify.",
 
     "education": [
         {
@@ -9,6 +9,14 @@
             "major":"Honours Software Engineering, Co-operative Program, Business Option",
             "description": "Studied Nanotechnology Engineering from 2014-2016 prior to transferring to Software Engineering in the fall of 2016.",
             "classes": [
+                {
+                    "code": "CS 454",
+                    "title": "Distributed Systems"
+                },
+                {
+                    "code": "CS 488",
+                    "title": "Intro to Computer Graphics"
+                },
                 {
                     "code": "CS 343",
                     "title": "Concurrent & Parallel Programming"
@@ -31,11 +39,18 @@
 
     "work": [
         {
+            "company":"Shopify",
+            "image":"shopify.jpg",
+            "title":"Backend Developer Intern, Shopify Plus",
+            "years":"Sept - Dec 2019 (current)",
+            "description":"Building new features to improve backend web services for Shopify Plus."
+        },
+        {
             "company":"Apple Inc.",
             "image":"apple.png",
             "title":"Software Engineering Intern, FaceTime Engineering Team",
             "years":"Jan - April 2019",
-            "description":""
+            "description":"Independently designed & implemented an innovative prototype exploring a new application of next generation technology; delivered a new cross-platform feature which shipped to millions of users across the globe in iOS 13."
         },
         {
             "company":"Ubisoft",
@@ -231,5 +246,5 @@
       "Software Optimization",
       "Autonomous Vehicles"
     ],
-    "lastUpdated": "February 2019"
+    "lastUpdated": "October 2019"
 }
