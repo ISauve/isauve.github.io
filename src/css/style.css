@@ -374,11 +374,12 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 16px/21px 'opensans-bold', sans-serif;
+   font: 17px/22px 'opensans-bold', sans-serif;
    color: #fff;
+   padding-bottom: 3px;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 14px/18px 'opensans-light', sans-serif;
+   font: 15px/19px 'opensans', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
@@ -414,17 +415,29 @@ ul#nav li.current a { color: #F06000; }
     max-height: 400px;
 }
 
-.customModal .description {
+.customModal .content {
     padding: 12px 36px 18px 36px;
     margin: 0;
 }
 
-.customModal .description p {
+.customModal .title {
+    float: left;
+}
+
+.customModal .details {
+    float: right;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.customModal .description {
+    clear: both;
     margin: 0;
 }
 
 .customModal .award {
     color: #596161;
+    margin: 0;
 }
 
 .customModal .first {

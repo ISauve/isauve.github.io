@@ -104,9 +104,10 @@ class Portfolio extends Component {
                 >
                     <div className="customModal">
                         { media }
-                        <div className="description">
-                            <h4> {project.title} </h4>
-                            <p> { project.description } </p>
+                        <div className="content">
+                            <h4 className="title"> {project.title} </h4>
+                            <p className="details"> {project.category}, {project.date} </p>
+                            <p className="description"> { project.description } </p>
                             { awards }
                         </div>
                         <div className="linkbox">
