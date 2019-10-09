@@ -83,6 +83,55 @@
     ],
 
     "projects": [
+
+        {
+            "title": "Fishing Game",
+            "image": "fishing_game.png",
+            "hasDemoImg": true,
+            "demo_image": "fishing_game.gif",
+            "urls": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/ISauve/Fishing-Game"
+                }
+            ],
+            "category": "School Project",
+            "date":"2019",
+            "description": "3D fishing game I created as a final project for CS 488 at the University of Waterloo. Built in C++ with OpenGL, this game demonstrates advanced rendering techniques including using projective texture mapping, displacement & bump mapping to render fluid; using shadow mapping to render shadows; lens flare; and rendering a a dynamic sky which shows the passage of time. As well, it implements collision detection between 3D non-axis aligned objects.",
+            "awards": []
+        },
+        {
+            "title": "VR Laser Game",
+            "image": "laser_game.png",
+            "hasDemoImg": true,
+            "demo_image": "laser_game.gif",
+            "urls": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/iburinoc/laser-game"
+                }
+            ],
+            "category": "Team of 4",
+            "date":"2019",
+            "description": "VR puzzle laser game built in Unity. Can be played on Google cardboard or on the web, in first or third person perspective.",
+            "awards": []
+        },
+        {
+            "title": "Workout Tracker",
+            "image": "workout_tracker.png",
+            "hasDemoImg": true,
+            "demo_image": "workout_tracker.gif",
+            "urls": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/ISauve/WorkoutTracker"
+                }
+            ],
+            "category": "Personal Project",
+            "date":"2019",
+            "description": "iOS app for tracking workouts. When I started going to the gym I just wanted a simple way to track workouts, but all the apps I found were expensive & had features I didn't need - so I made my own!",
+            "awards": []
+        },
         {
             "title": "3D Rendering Engine",
             "image": "3dengine.jpg",
