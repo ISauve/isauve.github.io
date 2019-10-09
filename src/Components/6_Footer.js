@@ -12,8 +12,8 @@ class Footer extends Component {
               <p> Last updated {Data.lastUpdated} </p>
               <ul>
                   <li>&copy; Copyright 2019 Isabelle Sauv&eacute;</li>
-                  <li>Design by <a title="Styleshout" href="https://www.styleshout.com/demo/?theme=ceevee" target="_blank">Styleshout</a></li>
-                  <li>Based on <a title="" href="https://github.com/tbakerx/react-resume-template" target="_blank">tbakerx/react-resume-template</a></li>
+                  <li>Design by <a title="Styleshout" href="https://www.styleshout.com/demo/?theme=ceevee" rel="noopener noreferrer" target="_blank">Styleshout</a></li>
+                  <li>Based on <a title="" href="https://github.com/tbakerx/react-resume-template" rel="noopener noreferrer" target="_blank">tbakerx/react-resume-template</a></li>
               </ul>
           </div>
           <div id="go-top"><AnchorLink href='#home'><i className="fa fa-angle-up"></i></AnchorLink></div>

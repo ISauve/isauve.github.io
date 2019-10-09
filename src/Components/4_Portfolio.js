@@ -75,6 +75,9 @@ class Portfolio extends Component {
                 );
             });
 
+            // eslint-disable-next-line
+            var closeLink = <a href="#" onClick={ () => { _this.onCloseModal(i) }}> close </a>
+
             return <div key={project.title} className="columns portfolio-item" ref={_this.project}>
 
                 <div className="item-wrap" onClick={ () => { _this.onOpenModal(i) } }>
@@ -108,7 +111,7 @@ class Portfolio extends Component {
                         </div>
                         <div className="linkbox">
                             { urlContents }
-                            <a href="#" onClick={ () => { _this.onCloseModal(i) }}> close </a>
+                            { closeLink }
                         </div>
                     </div>
                 </Modal>

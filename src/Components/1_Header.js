@@ -52,10 +52,10 @@ class Header extends Component {
                     <hr />
                         <ul className="social">
                         <li key="linkedin">
-                            <a href="https://www.linkedin.com/in/isauve" target="_blank"><i className="fa fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/isauve" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i></a>
                         </li>
                         <li key="github">
-                            <a href="https://github.com/ISauve" target="_blank"> <i className="fa fa-github"></i></a>
+                            <a href="https://github.com/ISauve" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
